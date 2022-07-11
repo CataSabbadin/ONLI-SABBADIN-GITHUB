@@ -14,11 +14,19 @@ html{
     src: url(FONTS/LEMONMILK-Regular.otf); 
     
 }
+@font-face {
+    font-family:"retro" ;
+    src: url(FONTS/Retrolight.otf); 
+    
+}
+.texto-nav:hover{
+    transform: scale(1.5);
+    transition:all .3s ease-in-out;
 
-
+}
 .header-container{
     font-size: 2.5rem;
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     display: flex;  
     justify-content: space-around;
     background-color: #2F8F9D;
@@ -27,7 +35,7 @@ html{
 li a{
     text-decoration:none;
     color: #82DBD8;
-    font-weight:bold;
+    font-weight:light;
     
 }
 
@@ -46,39 +54,46 @@ li a{
 }
 
 .logo-texto{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     background-color: #3BACB6;
-    background-size: cover;
-}
+    background: rgb(59,172,182);
+    background: linear-gradient(184deg, rgba(59,172,182,1) 0%, rgba(45,182,200,0.9925637393767706) 24%, rgba(30,192,219,1) 50%, rgba(15,202,237,1) 75%, rgba(0,212,255,1) 98%);
+        background-size: cover;}
 
 .section2{
-    background-color: #99C4C8;
+    background-color: whitesmoke;
+    background: rgb(7,208,247);
+background: linear-gradient(184deg, rgba(7,208,247,1) 0%, rgba(6,214,249,1) 19%, rgba(4,222,251,1) 48%, rgba(64,225,244,1) 65%, rgba(134,229,235,1) 85%, rgba(179,232,229,1) 99%);
 }
 
 h1{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 6rem;
     color: whitesmoke;
     padding: 2rem;
+    font-weight:lighter;
+
 }
 
 h2{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 4rem;
     text-align:center ;
     color:black;
     padding: 2rem;
+    font-weight: lighter;
+
 }
 
 h3{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 2.5rem;
     text-align: center ;
     color: #2F8F9D;
     padding: 2rem;
 }
 header{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 1.5rem;
 }
 
@@ -105,12 +120,12 @@ width:fit-content;
     width: 40px;
 }
 .contact_form{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 1.5rem;
 }
 
 .loginform{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 2rem; 
     color: black;
     text-align:center;
@@ -156,7 +171,7 @@ list-style: none;
 }
 
 footer{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 1.5rem;
     padding: 2rem;
     background-color: #B3E8E5;
@@ -165,9 +180,9 @@ footer{
 }
 
 button{
-    font-family: "lemonmilkregular";
+    font-family: "retro";
     font-size: 3rem;
-    border: 2px solid;
+    border: 2px lighter;
     color:#3BACB6;
     padding: 1rem;
     margin: 2rem;
